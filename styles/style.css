@@ -30,7 +30,6 @@
 
 .header__title {
   width: 730px;
-  margin: auto right;
   left: 64px;
   z-index: 2;
   line-height: 96px;
@@ -255,18 +254,14 @@
   justify-content: space-between;
   width: 1100px;
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 90px;
+  margin: 80px auto 10px;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px 0 90px;
   position: relative;
+  margin-bottom: 80px;
 }
 
 .table__heading_theme_dark {
@@ -288,7 +283,8 @@
 
 .kaufman__triangle {
   position: absolute;
-  size: 660px 636px;
+  width: 660px;
+  height: 636px;
   right: -124px;
   z-index: 1;
   top: 0;
@@ -296,7 +292,6 @@
 
 .footer {
   background-color: #1f1f1f;
-  min-height: 350px;
 }
 
 .footer__columns {
@@ -307,6 +302,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   margin: auto;
+  min-height: 187px;
 }
 
 .footer__column_content_copyright {
@@ -317,7 +313,8 @@
 }
 
 .logo_place_footer {
-  size: 183px 35px;
+  width: 183px;
+  height: 35px;
   top: 0;
 }
 
@@ -364,5 +361,6 @@
 }
 
 .footer__social-icons {
-  size: 16px 16px;
+  width: 16px;
+  height: 16px;
 }
