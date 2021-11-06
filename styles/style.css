@@ -81,7 +81,7 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 30px;
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -108,6 +108,7 @@
 
 .two-columns__paragraph {
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .two-columns__paragraph:last-child {
@@ -115,7 +116,7 @@
 }
 
 .digits {
-  margin: 100px auto;
+  margin: 100px auto 40px;
 }
 
 .section-title {
@@ -144,9 +145,8 @@
   justify-content: space-between;
   width: 1100px;
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0;
+  margin: 0 auto;
 }
 
 .table__cell {
@@ -156,7 +156,6 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -225,10 +224,11 @@
 
 .section-subtitle_theme_dark {
   color: white;
+  z-index: 2;
 }
 
 .table_theme_dark {
-  margin: 80px auto 10px;
+  margin: 20px auto 10px;
 }
 
 .table__cell_theme_dark {
@@ -294,6 +294,7 @@
   color: white;
   padding-top: 18px;
   padding-bottom: 18px;
+  margin: 0;
 }
 
 .footer__column-heading {
@@ -302,7 +303,9 @@
   font-weight: bold;
   color: white;
   margin-bottom: 20px;
+  margin-top: 0;
 }
+
 .footer__list {
   padding: 0;
   margin: 0;
