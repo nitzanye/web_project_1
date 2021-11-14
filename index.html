@@ -18,7 +18,7 @@
         <p class="header__subtitle">
           The most effective, cutting-edge learning techniques that you can
           apply to your daily life.
-          <a class="header__link" href="#">Learn more &rarr;</a>
+          <a class="header__link fade-transition" href="#">Learn more &rarr;</a>
         </p>
         <img
           class="header__main-illustration"
@@ -28,7 +28,7 @@
           system, while also wondering where that giant blue square came
           from"
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -64,6 +64,83 @@
               </p>
             </div>
           </article>
+        </section>
+
+        <section class="techniques">
+          <h2 class="section-title">Learning Techniques</h2>
+          <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+          <div class="cards">
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/cards-attention.png"
+                alt="The '101 Essays that will change the way you think' book"
+              />
+              <h3 class="cards__title">Two Ways of Thinking</h3>
+              <p class="cards__description">
+                Deep understanding comes from being able to toggle back and
+                forth between focused and diffused thinking.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/cards-recall.png"
+                alt="A statue image"
+              />
+              <h3 class="cards__title">Recall</h3>
+              <p class="cards__description">
+                Improving your ability to remember key bits of information helps
+                to connect different parts of the brain.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/cards-interleaving.png"
+                alt="An image of an audience leaving a hall"
+              />
+              <h3 class="cards__title">Interleaving</h3>
+              <p class="cards__description">
+                When you learn multiple skills at the same time, they reinforce
+                each other.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/cards-question.png"
+                alt="A single person stands alone in a large hall"
+              />
+              <h3 class="cards__title">Questions</h3>
+              <p class="cards__description">
+                When listening to your teacher, think up a good question,
+                something that you're really itching to know.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="./images/cards-competence.png"
+                alt="An hand holding typewriter "
+              />
+              <h3 class="cards__title">Illusion of Competence</h3>
+              <p class="cards__description">
+                Test yourself, write it down, tell other people, and repeat the
+                process in different settings. Only then can you be truly
+                certain you've understood something.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="video"></section>
+        <section class="oakley"></section>
+
+        <section class="feynman">
+          <h2 class="feynman__title">The Feynman Technique</h2>
+          <p class="feynman__subtitle">Learn without forgetting</p>
+          <a class="feynman__link fade-transition" href="#">More &rarr;</a>
         </section>
 
         <section class="digits">
@@ -125,11 +202,7 @@
           </ul>
         </section>
 
-        <section class="feynman">
-          <h2 class="feynman__title">The Feynman Technique</h2>
-          <p class="feynman__subtitle">Learn without forgetting</p>
-          <a class="feynman__link" href="#">More &rarr;</a>
-        </section>
+        <section class="khan"></section>
 
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
@@ -206,6 +279,8 @@
             alt="A big blue triangle, over which Josh Kaufman claims ownership"
           />
         </section>
+
+        <section class="resources"></section>
       </main>
       <footer class="footer">
         <nav class="footer__columns">
@@ -221,13 +296,19 @@
             <h2 class="footer__column-heading">About Practicum by Yandex</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#">Home page</a>
+                <a class="footer__column-link fade-transition" href="#"
+                  >Home page</a
+                >
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#">Mission</a>
+                <a class="footer__column-link fade-transition" href="#"
+                  >Mission</a
+                >
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#">Professions</a>
+                <a class="footer__column-link fade-transition" href="#"
+                  >Professions</a
+                >
               </li>
             </ul>
           </div>
@@ -235,7 +316,7 @@
             <h2 class="footer__column-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__column-link">
+                <a class="footer__column-link fade-transition">
                   <img
                     class="footer__social-icons"
                     src="./images/facebook_white.svg"
@@ -245,7 +326,7 @@
                 >
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link">
+                <a class="footer__column-link fade-transition">
                   <img
                     class="footer__social-icons"
                     src="./images/instagram_white.svg"
