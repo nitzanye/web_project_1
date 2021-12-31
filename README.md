@@ -18,3 +18,5 @@ The _Web Project 1_ is a demonstration landing page showcasing HTML, CSS.
 - Embeded media content
 - File path and BEM structure
 - Git
+
+[To The Project](https://nitzanye.github.io/web_project_1/)
