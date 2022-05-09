@@ -1,15 +1,26 @@
-# Web Project 1
+# Learning how to learn
+
+## Overview
+
+- [Live project](https://nitzanye.github.io/web_project_1/)
+- [About the project](#about-the-project)
+- [Technologies Used](#technologies-used)
+
 
 ## About The Project
+A desktop page focusing on optimizing learning techniques, made with image/video embedding, and CSS animations.
 
-The _Web Project 1_ is a demonstration landing page showcasing HTML, CSS.
+![1](https://user-images.githubusercontent.com/93406243/167497135-492e629e-c21a-4a79-8004-d4f0cdf54ecc.png)
+![2](https://user-images.githubusercontent.com/93406243/167497283-55e1e7db-bae6-4105-81ee-08376fa3264b.png)
 
-## Built With:
+## Technologies Used
+
+**Built With**
 
 - HTML
 - CSS
 
-### Techniques applied in this project
+**Techniques applied in this project**
 
 - Flexbox
 - Animation
@@ -19,4 +30,4 @@ The _Web Project 1_ is a demonstration landing page showcasing HTML, CSS.
 - File path and BEM structure
 - Git
 
-[To The Project](https://nitzanye.github.io/web_project_1/)
+Check out this project live [here](https://nitzanye.github.io/web_project_1/)
